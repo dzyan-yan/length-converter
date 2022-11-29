@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(117, 161, 167);
+}
+
+.form_user {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 30pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabel {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1pt;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.tabel tr th {
+    color: #fff;
+    background-color: blue;
+}
+
+.tabel tr td {
+    color: #000;
+    background-color: rgb(215, 215, 223);
+}
+
+.input_user {
+	text-align: center;
+	font-size: 20pt;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.hasil {
+	text-align: center;
+	font-size: 25pt;
+	color: rgb(0, 8, 250);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    margin-top: 2rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 18pt;
+}
