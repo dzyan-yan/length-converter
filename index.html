@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Tugas 3 | no.1</title>
+  <title>Kalkulator Panjang</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -24,8 +24,24 @@
             <td>{{ input / 100000 }}</td>
           </tr>
           <tr>
+            <td>Hektometer</td>
+            <td>{{ input / 10000 }}</td>
+          </tr>
+          <tr>
+            <td>Dekameter</td>
+            <td>{{ input / 1000 }}</td>
+          </tr>
+          <tr>
             <td>Meter</td>
             <td>{{ input / 100 }}</td>
+          </tr>
+          <tr>
+            <td>Desimeter</td>
+            <td>{{ input / 10 }}</td>
+          </tr>
+          <tr>
+            <td>Milimeter</td>
+            <td>{{ input * 10 }}</td>
           </tr>
         </table>
         <div class="footer">
